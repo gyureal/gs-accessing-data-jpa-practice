@@ -16,7 +16,7 @@ public class GsAccessingDataJpaPracticeApplication {
         SpringApplication.run(GsAccessingDataJpaPracticeApplication.class, args);
     }
 
-    @Bean
+    //@Bean
     public CommandLineRunner demo(CustomerRepository repository) {
         return (args) -> {
             // save a few customers
