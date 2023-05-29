@@ -13,7 +13,7 @@ public class Customer {
     private String firstName;
     private String lastName;
 
-    protected Customer() {}
+    protected Customer() {} // jpa에서 필요로 하는 기본생성자
 
     public Customer(String firstName, String lastName) {
         this.firstName = firstName;
